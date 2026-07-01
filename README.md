@@ -8,7 +8,7 @@ Updated polished one-page website for GitHub Pages.
 - Product cards linked to Amazon
 - Where to Buy links for Amazon Store and Chewy.com
 - Review carousel with left/right swipe
-- Contact form via FormSubmit to jasper_am@petlifeco.com
+- Contact form via FormSubmit to jspamerica@petlifeco.com
 - Video section removed
 - Quality & Care image updated to GTS01 product image
 
