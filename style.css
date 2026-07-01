@@ -6,8 +6,9 @@
 .retailer-card{display:grid;grid-template-columns:190px 1fr;gap:24px;align-items:center;padding:28px;border:1px solid var(--line);border-radius:var(--radius);background:#fff;text-decoration:none;color:inherit;box-shadow:var(--shadow);transition:.28s}
 .retailer-card:hover{transform:translateY(-6px);box-shadow:0 30px 78px rgba(47,22,12,.18)}
 .retailer-logo{height:118px;border-radius:22px;display:grid;place-items:center;text-align:center;position:relative;overflow:hidden;background:#fff;border:1px solid rgba(107,53,31,.12);padding:18px}
-.retailer-logo img{width:100%;height:100%;object-fit:contain}
+.retailer-logo img{width:100%;height:100%;max-width:240px;object-fit:contain}
 .amazon-logo{background:#131921}
 .chewy-logo{background:#244fc6}
 .retailer-card h3{margin:0 0 8px}.retailer-card p{margin:0 0 12px}.retailer-card strong{color:var(--orange);font-size:13px;text-transform:uppercase;letter-spacing:.05em}
-@media(max-width:900px){.retailer-grid{grid-template-columns:1fr}.retailer-card{grid-template-columns:1fr}.retailer-logo{height:96px}}
+@media(max-width:900px){.retailer-grid{grid-template-columns:1fr}.retailer-card{grid-template-columns:minmax(0,1fr);gap:18px;text-align:center}.retailer-logo{width:100%;max-width:280px;height:104px;justify-self:center;padding:16px}.retailer-logo img{max-width:220px}}
+@media(max-width:420px){.retailer-card{padding:22px}.retailer-logo{height:88px;max-width:240px;padding:14px}.retailer-logo img{max-width:190px}}
